@@ -1,5 +1,10 @@
 ---
 # example.com es un dominio recomendado para documentación por la Autoridad de
 # Números de Internet Asignados (IANA)
-git_correo: "mi.nombre@example.com"
-git_nombre: "Mi Nombre"
+git_config:
+  push:
+    default: current
+
+  user:
+    email: mi.nombre@example.com
+    name: Mi Nombre

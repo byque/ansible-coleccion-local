@@ -8,3 +8,8 @@
   ansible.builtin.apt:
     name: git
     state: present
+
+- name: Generar la configuración de Git
+  ansible.builtin.template:
+    dest: "{{ ansible_env.HOME }}/.gitconfig"
+    src: gitconfig.j2
