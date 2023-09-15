@@ -1,0 +1,9 @@
+---
+- name: "Probar rol de Git dentro de este libro de jugadas"
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: "Probando rol de Git"
+      ansible.builtin.include_role:
+        name: byque.local.git
+        tasks_from: main.yml
