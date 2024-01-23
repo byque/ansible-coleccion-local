@@ -1,0 +1,7 @@
+# Esto es un comentario.
+# Cada línea es un patrón de archivo seguido por uno o más dueños.
+
+# Estos dueños serán los dueños por defecto de todo en el repo. A menos que
+# una coincidencia siguiente tome precedencia,
+# @byque será solicitado para revisión cuando alguien abra una PR.
+* @byque
