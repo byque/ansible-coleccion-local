@@ -1,0 +1,26 @@
+---
+name: Integración Contínua
+
+on: [push]
+
+jobs:
+  molecule:
+    name: Molecule
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Chequear el código
+        uses: actions/checkout@v4.1.1
+
+      - name: Versión de Python del ejecutor
+        run: python --version
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5.0.0
+        with:
+         python-version: '3.10.12'
+      
+      - name: Instalar las dependencias para las pruebas
+        run: pip3 install -r .github/workflows/requerimientos.txt
+
+      # - name: Ejecutar las pruebas de Molecule
+      #   run: molecule test
