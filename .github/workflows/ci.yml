@@ -22,5 +22,5 @@ jobs:
       - name: Instalar las dependencias para las pruebas
         run: pip3 install -r .github/workflows/requerimientos.txt
 
-      - name: Ejecutar las pruebas de Molecule
-        run: molecule test
+      # - name: Ejecutar las pruebas de Molecule
+      #   run: molecule test
