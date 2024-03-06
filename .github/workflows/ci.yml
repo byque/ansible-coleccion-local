@@ -21,3 +21,8 @@ jobs:
       
       - name: Instalar las dependencias para las pruebas
         run: pip3 install molecule molecule-plugins[docker]
+      
+      - run: pip3 freeze -l
+
+      - name: Ejecutar las pruebas de Molecule
+        run: molecule test
