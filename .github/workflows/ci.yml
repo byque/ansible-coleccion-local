@@ -4,7 +4,9 @@ name: Integración Contínua
 on: [push]
 
 jobs:
-  probando:
+  chequear:
     runs-on: ubuntu-22.04
     steps:
-      - run: cat /etc/os-release
+      - name: Chequear el código
+        uses: actions/checkout@v4
+      - run: ls
