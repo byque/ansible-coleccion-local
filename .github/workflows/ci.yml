@@ -1,0 +1,10 @@
+---
+name: Integración Contínua
+
+on: [push]
+
+jobs:
+  probando:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: cat /etc/os-release
