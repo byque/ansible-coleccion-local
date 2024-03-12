@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Chequear el código
         uses: actions/checkout@v4.1.1
+        with:
+          path: 'byque.local'
 
       - name: Versión de Python del ejecutor
         run: python --version
