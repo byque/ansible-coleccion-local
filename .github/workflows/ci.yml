@@ -7,13 +7,13 @@ jobs:
   molecule:
     name: Molecule
     env:
-      RUTA: 'byque.local'
+      RUTA: &RUTA 'byque.local'
     runs-on: ubuntu-22.04
     steps:
       - name: Chequear el código
         uses: actions/checkout@v4.1.1
         with:
-          path: "$RUTA"
+          path: *RUTA
 
       - name: Versión de Python del ejecutor
         run: python --version
