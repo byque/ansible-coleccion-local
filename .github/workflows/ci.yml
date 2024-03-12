@@ -6,12 +6,14 @@ on: [push]
 jobs:
   molecule:
     name: Molecule
+    env:
+      RUTA: 'byque.local'
     runs-on: ubuntu-22.04
     steps:
       - name: Chequear el código
         uses: actions/checkout@v4.1.1
         with:
-          path: 'byque.local'
+          path: "$RUTA"
 
       - name: Versión de Python del ejecutor
         run: python --version
@@ -22,7 +24,7 @@ jobs:
          python-version: '3.10.12'
       
       - name: Instalar las dependencias para las pruebas
-        run: pip3 install -r byque.local/.github/workflows/requerimientos.txt
+        run: pip3 install -r ${RUTA}/.github/workflows/requerimientos.txt
 
       # - name: Ejecutar las pruebas de Molecule
       #   run: molecule test
