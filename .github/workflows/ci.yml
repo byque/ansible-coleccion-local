@@ -22,7 +22,8 @@ jobs:
          python-version: '3.10.12'
       
       - name: Instalar las dependencias para las pruebas
-        run: pip3 install -r .github/workflows/requerimientos.txt
+        run: pwd
+        # run: pip3 install -r .github/workflows/requerimientos.txt
 
       # - name: Ejecutar las pruebas de Molecule
       #   run: molecule test
