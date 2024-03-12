@@ -22,7 +22,8 @@ jobs:
          python-version: '3.10.12'
       
       - name: Instalar las dependencias para las pruebas
-        env: 'byque.local'
+        env:
+          RUTA: 'byque.local'
         run: pip3 install -r ${RUTA}/.github/workflows/requerimientos.txt
 
       # - name: Ejecutar las pruebas de Molecule
