@@ -1,5 +1,5 @@
 ---
-name: Integración Contínua
+name: "Integración Contínua"
 
 on: [push]
 
