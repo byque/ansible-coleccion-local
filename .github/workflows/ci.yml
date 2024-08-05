@@ -6,10 +6,10 @@ on: [push]
 jobs:
   molecule:
     name: Molecule
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Chequear el código
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.7
         with:
           path: 'byque.local'
 
@@ -17,9 +17,9 @@ jobs:
         run: python --version
 
       - name: Configurar Python
-        uses: actions/setup-python@v5.0.0
+        uses: actions/setup-python@v5.1.1
         with:
-         python-version: '3.10.12'
+         python-version: '3.12.3'
       
       - name: Instalar las dependencias para las pruebas
         env:
