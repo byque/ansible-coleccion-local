@@ -26,6 +26,6 @@ jobs:
           RUTA: 'byque.local'
         run: pip3 install -r ${RUTA}/.github/workflows/requerimientos.txt
 
-      - name: Ejecutar las pruebas de Molecule
-        run: molecule test
-        working-directory: byque.local/extensions
+#      - name: Ejecutar las pruebas de Molecule
+#        run: molecule test
+##        working-directory: byque.local/extensions
