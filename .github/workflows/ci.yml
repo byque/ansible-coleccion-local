@@ -6,7 +6,7 @@ on: [push]
 jobs:
   molecule:
     name: Molecule
-    runs-on: debian-12
+    runs-on: self-hosted
     steps:
       - name: Chequear el código
         uses: actions/checkout@v4.1.7
