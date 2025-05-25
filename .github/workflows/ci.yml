@@ -19,7 +19,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5.1.1
         with:
-         python-version: '3.12.3'
+         python-version: '3.11.2'
       
       - name: Instalar las dependencias para las pruebas
         env:
