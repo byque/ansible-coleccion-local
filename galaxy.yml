@@ -7,8 +7,8 @@ namespace: byque
 # The name of the collection. Has the same character restrictions as 'namespace'
 name: local
 
-# The version of the collection. Must be compatible with semantic versioning
 version: 0.0.2
+# La versión de la colección. Debe ser compatible con versionamiento semántico
 
 # The path to the Markdown (.md) readme file. This path is relative to the root of the collection
 readme: README.md
