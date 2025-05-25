@@ -54,11 +54,12 @@ homepage: http://example.com
 # The URL to the collection issue tracker
 issues: http://example.com/issue/tracker
 
-build_ignore: []
 # Una lista de patrones de archivo tipo glob usados para filtrar cualquier archivo o directorio que no se debería
 # incluir en el artefacto construído. Un patrón coincide con la ruta relativa del archivo o directorio con respecto al
 # directorio de la colección. Esto usa 'fnmatch' para emparejar los archivos o directorios. Algunos directorios y
 # archivos como 'galaxy.yml', '*.pyc', '*.retry' y '.git' siempre están filtrados. Mutuamente excluyente con 'manifest'
+build_ignore:
+- .idea/
 
 # A dict controlling use of manifest directives used in building the collection artifact. The key 'directives' is a
 # list of MANIFEST.in style
