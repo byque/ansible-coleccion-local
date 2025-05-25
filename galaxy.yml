@@ -59,8 +59,8 @@ issues: http://example.com/issue/tracker
 # directorio de la colección. Esto usa 'fnmatch' para emparejar los archivos o directorios. Algunos directorios y
 # archivos como 'galaxy.yml', '*.pyc', '*.retry' y '.git' siempre están filtrados. Mutuamente excluyente con 'manifest'
 build_ignore:
-- .idea/
-- .venv/
+- .idea
+- .venv
 
 # A dict controlling use of manifest directives used in building the collection artifact. The key 'directives' is a
 # list of MANIFEST.in style
