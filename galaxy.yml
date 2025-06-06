@@ -41,8 +41,8 @@ tags:
 # range specifiers can be set and are separated by ','
 dependencies: {}
 
-repository: http://example.com/repository
 # La URL del repositorio SCM del que se origina
+repository: https://github.com/byque/ansible-coleccion-local
 
 # The URL to any online docs
 documentation: http://docs.example.com
