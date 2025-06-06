@@ -50,8 +50,8 @@ documentation: http://docs.example.com
 # The URL to the homepage of the collection/project
 homepage: http://example.com
 
-# The URL to the collection issue tracker
 issues: http://example.com/issue/tracker
+# La URL de la página de seguimiento de problemas
 
 # Una lista de patrones de archivo tipo glob usados para filtrar cualquier archivo o directorio que no se debería
 # incluir en el artefacto construído. Un patrón coincide con la ruta relativa del archivo o directorio con respecto al
