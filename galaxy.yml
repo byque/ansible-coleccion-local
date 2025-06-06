@@ -50,8 +50,8 @@ documentation: http://docs.example.com
 # The URL to the homepage of the collection/project
 homepage: http://example.com
 
-issues: http://example.com/issue/tracker
 # La URL de la página de seguimiento de problemas
+issues: https://github.com/byque/ansible-coleccion-local/issues
 
 # Una lista de patrones de archivo tipo glob usados para filtrar cualquier archivo o directorio que no se debería
 # incluir en el artefacto construído. Un patrón coincide con la ruta relativa del archivo o directorio con respecto al
