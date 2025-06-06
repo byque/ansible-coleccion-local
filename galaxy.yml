@@ -30,9 +30,10 @@ description: Configuración de la computadora personal de @byque
 license:
 - GPL-3.0
 
-tags: []
 # Una lista de etiquetas para asociar con la colección para indexamiento/búsqueda. El nombre de la etiqueta tiene los
 # mismos requerimientos que el nombre de espacios y el nombre de la colección.
+tags:
+  - debian
 
 # Collections that this collection requires to be installed for it to be usable. The key of the dict is the
 # collection label 'namespace.name'. The value is a version range
@@ -66,4 +67,3 @@ build_ignore:
 # 'omit_default_directives' is a boolean that controls whether the default directives are used. Mutually exclusive
 # with 'build_ignore'
 # manifest: null
-
