@@ -21,9 +21,9 @@ authors:
 - Byron Quezada
 
 
-description: your collection description
 ### OPCIONAL pero fuertemente sugerido
 # Un resumen breve con la descripción de la colección
+description: Configuración de la computadora personal de @byque
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
