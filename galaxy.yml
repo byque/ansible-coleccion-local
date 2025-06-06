@@ -41,8 +41,8 @@ tags:
 # range specifiers can be set and are separated by ','
 dependencies: {}
 
-# The URL of the originating SCM repository
 repository: http://example.com/repository
+# La URL del repositorio SCM del que se origina
 
 # The URL to any online docs
 documentation: http://docs.example.com
