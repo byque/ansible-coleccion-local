@@ -7,10 +7,11 @@ namespace: byque
 # El nombre de la colección. Tiene las mismas restricciones que el espacio de nombre.
 name: local
 
-# La versión de la colección. Debe ser compatible con versionamiento semántico
+# La versión de la colección. Debe ser compatible con versionamiento semántico.
 version: 0.0.3
 
-# The path to the Markdown (.md) readme file. This path is relative to the root of the collection
+# La ruta al léeme en archivo Markdown (.md). Esta ruta es relativa a la raíz de la colección.
+# El nombre del archivo se mantiene en inglés para su correcta visualización en GitHub.
 readme: README.md
 
 # A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
