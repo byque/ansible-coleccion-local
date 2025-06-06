@@ -1,4 +1,4 @@
-# Ansible Collection - byque.local
+# Colección de Ansible - byque.local
 
 [![Integración Contínua](https://github.com/byque/ansible-coleccion-local/actions/workflows/ci.yml/badge.svg)](https://github.com/byque/ansible-coleccion-local/actions/workflows/ci.yml)
 
