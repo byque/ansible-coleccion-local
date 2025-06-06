@@ -25,3 +25,19 @@ Instalar las dependencias.
 ```sh
 pip install -r ./github/workflows/requerimientos.txt
 ```
+
+## Distribución
+
+### Construir la colección
+```sh
+ansible-galaxy collection build
+```
+
+### Cargar la colección a Galaxy
+
+- Obtener un [token](https://galaxy.ansible.com/ui/token/) de Galaxy.
+- Agregar el token a [ansible.cfg](ansible.cfg)
+- Publicar la colección
+```sh
+ansible-galaxy collection publish byque-local-X.X.X.tar.gz
+```
