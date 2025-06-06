@@ -14,7 +14,8 @@ version: 0.0.3
 # El nombre del archivo se mantiene en inglés para su correcta visualización en GitHub.
 readme: README.md
 
-# A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
+# Lista de los autores del contenido de la colección. Puede ser solo el nombre o en el formato
+# 'Nombre Completo <email> (url)
 # @nicks:irc/im.site#channel'
 authors:
 - your name <example@domain.com>
