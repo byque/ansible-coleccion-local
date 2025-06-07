@@ -1,2 +1,5 @@
 # Entornos virtuales de Python
 .venv/
+
+# Colección de Ansible
+byque-local-*.tar.gz
