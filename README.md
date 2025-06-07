@@ -29,6 +29,10 @@ pip install -r ./github/workflows/requerimientos.txt
 ## Distribución
 
 ### Construir la colección
+
+> [!CAUTION]  
+> Verificar que [ansible.cfg](ansible.cfg) no tiene token.
+
 ```sh
 ansible-galaxy collection build
 ```
@@ -41,3 +45,7 @@ ansible-galaxy collection build
 ```sh
 ansible-galaxy collection publish byque-local-X.X.X.tar.gz
 ```
+
+> [!WARNING]  
+> Eliminar el token de [ansible.cfg](ansible.cfg).
+
