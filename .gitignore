@@ -1,5 +1,5 @@
 # Entornos virtuales de Python
 .venv/
 
-# Colección de Ansible
+# Archivo tarball con la colección de Ansible
 byque-local-*.tar.gz
