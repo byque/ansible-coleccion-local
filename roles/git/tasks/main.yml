@@ -2,3 +2,9 @@
 - name: "La tarea está ejecutándose desde el rol"
   ansible.builtin.debug:
     msg: "Esta es una tarea de Git."
+
+- name: Instalar Git desde Advanced Package Tool
+  become: yes
+  ansible.builtin.apt:
+    name: git
+    state: present
