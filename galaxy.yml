@@ -28,7 +28,7 @@ description: Configuración de la computadora personal de @byque
 # Una licencia singular o una lista de licencias para el contenido dentro de la colección. Ansible Galaxy actualmente
 # solo acepta licencias L(SPDX,https://spdx.org/licenses/). Este valor es mutuamente excluyente con 'licence_file'.
 license:
-- GPL-3.0
+- GPL-3.0-only
 
 # Una lista de etiquetas para asociar con la colección para indexamiento/búsqueda. El nombre de la etiqueta tiene los
 # mismos requerimientos que el nombre de espacios y el nombre de la colección.
