@@ -1,2 +1,5 @@
 ---
-# defaults file for git
+# example.com es un dominio recomendado para documentación por la Autoridad de
+# Números de Internet Asignados (IANA)
+git_correo: "mi.nombre@example.com"
+git_nombre: "Mi Nombre"
