@@ -39,3 +39,5 @@ An optional section for the role authors to include contact information, or a we
 
 Referencias
 -----------
+
+- [8.1 Personalización de Git - Configuración de Git - Git](https://git-scm.com/book/es/v2/Personalizaci%c3%b3n-de-Git-Configuraci%c3%b3n-de-Git)
