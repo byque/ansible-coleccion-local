@@ -1,6 +1,6 @@
 ---
 # example.com es un dominio recomendado para documentación por la Autoridad de
-# Números de Internet Asignados (IANA)
+# Números Asignados de Internet (IANA)
 git_config:
   push:
     default: current
