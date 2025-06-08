@@ -3,6 +3,9 @@ Role Name
 
 A brief description of the role goes here.
 
+La personalización de Git sugiere convertir los finales de línea CRLF en LF
+cuando se trabaja en Linux.
+
 Requirements
 ------------
 
