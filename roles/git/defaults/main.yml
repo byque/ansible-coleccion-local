@@ -1,7 +1,9 @@
 ---
 # example.com es un dominio recomendado para documentación por la Autoridad de
 # Números Asignados de Internet (IANA)
-git_config:
+git_correo: mi.nombre@example.com
+git_nombre: "Mi Nombre"
+_git_config:
   core:
     autocrlf = input
 
@@ -9,5 +11,5 @@ git_config:
     default: current
 
   user:
-    email: mi.nombre@example.com
-    name: Mi Nombre
+    email: "{{ git_correo }}"
+    name: "{{ git_nombre }}"
