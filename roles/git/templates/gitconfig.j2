@@ -1,6 +1,6 @@
 {{ ansible_managed | comment }}
 
-{% for section, config in git_config.items() %}
+{% for section, config in _git_config.items() %}
 [{{ section }}]
 {% for key, value in config.items() %}
 	{{ key }} = {{ value }}
