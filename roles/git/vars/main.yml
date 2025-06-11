@@ -1,2 +1,9 @@
 ---
-# vars file for git
+_git_config:
+  core:
+    autocrlf: input
+  push:
+    default: current
+  user:
+    email: "{{ git_correo }}"
+    name: "{{ git_nombre }}"

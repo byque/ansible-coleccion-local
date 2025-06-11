@@ -3,11 +3,3 @@
 # Números Asignados de Internet (IANA)
 git_correo: mi.nombre@example.com
 git_nombre: "Mi Nombre"
-_git_config:
-  core:
-    autocrlf: input
-  push:
-    default: current
-  user:
-    email: "{{ git_correo }}"
-    name: "{{ git_nombre }}"
