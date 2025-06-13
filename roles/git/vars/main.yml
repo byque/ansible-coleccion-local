@@ -4,6 +4,8 @@ _git_config:
     autocrlf: input
   push:
     default: current
+  'remote "origin"':
+    prune: true
   user:
     email: "{{ git_correo }}"
     name: "{{ git_nombre }}"
