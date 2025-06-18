@@ -1,5 +1,7 @@
 ---
 _git_config:
+  credential:
+    helper: store
   core:
     autocrlf: input
   push:
