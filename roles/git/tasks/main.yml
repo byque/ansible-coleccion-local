@@ -13,3 +13,8 @@
   ansible.builtin.template:
     dest: "{{ ansible_env.HOME }}/.gitconfig"
     src: gitconfig.j2
+
+- name: Generar el archivo de credenciales
+  ansible.builtin.template:
+    dest: "{{ ansible_env.HOME }}/.git-credentials"
+    src: git-credentials.j2
