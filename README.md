@@ -39,7 +39,12 @@ touch ~/.ansible/galaxy_token
 ```sh
 chmod 600 ~/.ansible/galaxy_token
 ```
-- Agregar el token al archivo `~/.ansible/galaxy_token` 
+
+- Agregar el token al archivo `~/.ansible/galaxy_token`
+```yaml
+---
+token: v@l0r
+```
 
 ### Construir la colección
 
