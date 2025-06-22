@@ -1,2 +1,10 @@
 ---
-# defaults file for git
+# example.com, example.org son dominios recomendados por la Autoridad de
+# Números Asignados de Internet (IANA) para documentación.
+
+# Credenciales para servidores de administración del código fuente (SCM)
+git_credenciales:
+  - https://miusuario:clave@example.com
+  - https://miusuario:clave@example.org
+git_correo: mi.nombre@example.com
+git_nombre: "Mi Nombre"

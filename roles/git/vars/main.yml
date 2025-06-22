@@ -1,2 +1,13 @@
 ---
-# vars file for git
+_git_config:
+  credential:
+    helper: store
+  core:
+    autocrlf: input
+  push:
+    default: current
+  'remote "origin"':
+    prune: true
+  user:
+    email: "{{ git_correo }}"
+    name: "{{ git_nombre }}"

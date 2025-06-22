@@ -1,4 +1,20 @@
 ---
-- name: "La tarea está ejecutándose desde el rol"
+- name: "Configuración"
   ansible.builtin.debug:
-    msg: "Esta es una tarea de Git."
+    msg: "{{ _git_config }}"
+
+- name: Instalar Git desde Advanced Package Tool
+  become: yes
+  ansible.builtin.apt:
+    name: git
+    state: present
+
+- name: "Generar la configuración de Git"
+  ansible.builtin.template:
+    dest: "{{ ansible_env.HOME }}/.gitconfig"
+    src: gitconfig.j2
+
+- name: Generar el archivo de credenciales
+  ansible.builtin.template:
+    dest: "{{ ansible_env.HOME }}/.git-credentials"
+    src: git-credentials.j2

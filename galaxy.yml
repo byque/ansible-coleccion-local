@@ -8,7 +8,7 @@ namespace: byque
 name: local
 
 # La versión de la colección. Debe ser compatible con versionamiento semántico.
-version: 0.0.4
+version: 0.0.5
 
 # La ruta al léeme en archivo Markdown (.md). Esta ruta es relativa a la raíz de la colección.
 # El nombre del archivo se mantiene en inglés para su correcta visualización en GitHub.
