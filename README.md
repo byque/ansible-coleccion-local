@@ -31,10 +31,12 @@ pip install -r ./github/workflows/requerimientos.txt
 ### Requerimientos para cargar la colección a Galaxy
 
 - Obtener un [token](https://galaxy.ansible.com/ui/token/) de Galaxy.
-- Crear el archivo con el token de Galaxy fuera del repositorio.
+- Crear el archivo del token de Galaxy fuera del repositorio (Por defecto,
+  `ansible-galaxy` revisa el directorio de inicio del usuario).
 ```sh
 touch ~/.ansible/galaxy_token
 ```
+
 - Permitir la lectura y escritura solo al usuario dueño del archivo.
 ```sh
 chmod 600 ~/.ansible/galaxy_token
