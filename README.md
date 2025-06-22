@@ -28,20 +28,27 @@ pip install -r ./github/workflows/requerimientos.txt
 
 ## Distribución
 
-### Construir la colección
+### Requerimientos para cargar la colección a Galaxy
 
-> [!CAUTION]  
-> Verificar que [ansible.cfg](ansible.cfg) no tiene token.
+- Obtener un [token](https://galaxy.ansible.com/ui/token/) de Galaxy.
+- Crear el archivo con el token de Galaxy fuera del repositorio.
+```sh
+touch ~/.ansible/galaxy_token
+```
+- Permitir la lectura y escritura solo al usuario dueño del archivo.
+```sh
+chmod 600 ~/.ansible/galaxy_token
+```
+- Agregar el token al archivo `~/.ansible/galaxy_token` 
+
+### Construir la colección
 
 ```sh
 ansible-galaxy collection build
 ```
 
-### Cargar la colección a Galaxy
+### Publicar la colección en Galaxy
 
-- Obtener un [token](https://galaxy.ansible.com/ui/token/) de Galaxy.
-- Agregar el token a [ansible.cfg](ansible.cfg)
-- Publicar la colección
 ```sh
 ansible-galaxy collection publish byque-local-X.X.X.tar.gz
 ```
