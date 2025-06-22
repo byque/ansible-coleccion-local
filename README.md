@@ -45,7 +45,3 @@ ansible-galaxy collection build
 ```sh
 ansible-galaxy collection publish byque-local-X.X.X.tar.gz
 ```
-
-> [!WARNING]  
-> Eliminar el token de [ansible.cfg](ansible.cfg).
-
