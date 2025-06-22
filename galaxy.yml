@@ -58,6 +58,7 @@ issues: https://github.com/byque/ansible-coleccion-local/issues
 # directorio de la colección. Esto usa 'fnmatch' para emparejar los archivos o directorios. Algunos directorios y
 # archivos como 'galaxy.yml', '*.pyc', '*.retry' y '.git' siempre están filtrados. Mutuamente excluyente con 'manifest'
 build_ignore:
+- .github
 - .idea
 - .venv
 
